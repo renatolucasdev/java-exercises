@@ -1,7 +1,5 @@
 # java-exercises
 
-___
-
 ## 1. Classes, Objetos, Construtores e `this`
 
 1. **Classe `Pessoa` simples**
@@ -12,22 +10,22 @@ ___
    - No `main`, crie 2 pessoas e imprima os dados. [x]
 2. **Sobrecarga de construtores + `this()`**
    - Na classe `Pessoa`:
-     - Crie um construtor apenas com `nome` que chame o construtor completo (`this(nome, idadePadrao)`). [ ]
-     - Idade padrão deve ser 18. [ ]
-   - No `main`, crie uma pessoa com apenas o nome e verifique se a idade padrão foi aplicada. [ ]
+     - Crie um construtor apenas com `nome` que chame o construtor completo (`this(nome, idadePadrao)`). [x]
+     - Idade padrão deve ser 18. [ x ]
+   - No `main`, crie uma pessoa com apenas o nome e verifique se a idade padrão foi aplicada. [ x ]
 3. **Classe `Retangulo` com métodos**
-   - Campos privados: `largura`, `altura`. [ ]
-   - Construtor que recebe `largura` e `altura`. [ ]
+   - Campos privados: `largura`, `altura`. [ x ]
+   - Construtor que recebe `largura` e `altura`. [ x ]
    - Métodos:
-     - `double calcularArea()` [ ]
-     - `double calcularPerimetro()` [ ]
-   - Crie um método `aumentar(double fator)` que multiplica largura/altura pelo fator. [ ]
-   - Teste no `main`. [ ]
+     - `double calcularArea()` [ x ]
+     - `double calcularPerimetro()` [ x ]
+   - Crie um método `aumentar(double fator)` que multiplica largura/altura pelo fator. [ x ]
+   - Teste no `main`. [ x ]
 4. **Referência vs cópia**
-   - Crie `Retangulo r1 = new Retangulo(2, 3);` [ ]
-   - Faça `Retangulo r2 = r1;` [ ]
-   - Modifique `r2` e observe `r1`. [ ]
-   - Explique em comentário o que aconteceu (referência, não cópia). [ ]
+   - Crie `Retangulo r1 = new Retangulo(2, 3);` [ x ]
+   - Faça `Retangulo r2 = r1;` [ x ]
+   - Modifique `r2` e observe `r1`. [ x ]
+   - Explique em comentário o que aconteceu (referência, não cópia). [ x ]
 
 ___
 
