@@ -18,6 +18,7 @@ public class Main {
 
         System.out.println("Nome: "  + p3.getNome());
         System.out.println("Idade: " + p3.getIdade());//idade padrão por sobrecarga de construtor
+
         System.out.println("---------------------------------------");
 
         Retangulo r = new Retangulo(5, 2);
@@ -34,5 +35,15 @@ public class Main {
         System.out.println("Largura de r1: "+ r1.getLargura()); //7, pois o valor foi alterado por r2 na mesma referência de memória que r2
         System.out.println("Altura de r1: " + r1.getAltura()); //5, pois o valor foi alterado por r2 na mesma referência de memória que r2
 
+        System.out.println("---------------------------------------");
+        TiposPrimitivos tiposPrimitivos = new TiposPrimitivos();
+        System.out.println("Valores padrões dos Tipos Primitivos: ");
+        System.out.println(tiposPrimitivos.mostrarValoresPadrao());
+        System.out.println("Intervalos de valores dos Tipos Primitivos (Wrappers Classes)");
+        System.out.println(tiposPrimitivos.mostrarIntervalos());
+        System.out.println("Narrowing (3.9): " + tiposPrimitivos.narrowing(3.9));
+        System.out.println("Narrowing (-2.1): " + tiposPrimitivos.narrowing(-2.1));
+        System.out.println("Narrowing (Double.MAX_VALUE): " + tiposPrimitivos.narrowing(Double.MAX_VALUE));
+        System.out.println("Widening (5000): " + tiposPrimitivos.narrowing(5000));
     }
 }

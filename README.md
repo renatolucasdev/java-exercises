@@ -29,3 +29,19 @@
 
 ___
 
+## 2. Tipos Primitivos, Referência, Boxing/Unboxing
+
+1. **Tabela de tipos primitivos**
+   - Crie um comentário na IDE com os 8 tipos primitivos e, ao lado, um valor de exemplo para cada tipo.  [ x ]
+   - Implemente um método `mostrarValoresPadrao()`: 
+     - Crie uma classe com campos de todos os tipos primitivos. [ x ]
+     - No `main`, instancie a classe sem inicializar os campos e imprima seus valores para ver os *defaults*. [ x ]
+2. **Conversão entre primitivos (widening/narrowing)**
+   - Escreva um método que receba um `double` e retorne um `int` truncado. [ x ]
+   - Teste com valores `3.9`, `-2.1` e com `Double.MAX_VALUE`. [ x ]
+   - Observe o comportamento (overflow/truncamento). [ x ]
+3. **Autoboxing e NullPointerException**
+   - Crie `Integer x = null;`
+   - Em um bloco `try/catch`, faça:
+     - `int y = x;`
+   - Capture a exceção e imprima uma mensagem explicando por que ocorreu.
